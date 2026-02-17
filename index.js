@@ -1,10 +1,4 @@
-process.on('uncaughtException', (err) => {
-    console.error('UNCAUGHT EXCEPTION:', err);
-});
 
-process.on('unhandledRejection', (reason) => {
-    console.error('UNHANDLED REJECTION:', reason);
-});
 // ⏳ Runtime calculator
 function runtime(seconds) {
   seconds = Number(seconds);
